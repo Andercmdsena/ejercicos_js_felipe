@@ -32,7 +32,7 @@ function inversion(){
         total2.innerText = result
         break;
         case '2 Años':
-            result = Math.round(12*(monto*(1.3/100) ));
+            result = Math.round(24*(monto*(1.3/100) ));
             result1 = parseInt(result) + parseInt(monto);
         tiempo1.innerText = tiempo
         porcentaje.innerText = "%1.3%"
@@ -42,7 +42,7 @@ function inversion(){
         
         break;
         case '3 Años':
-            result = Math.round(12*(monto*(1.7/100) ));
+            result = Math.round(36*(monto*(1.7/100) ));
             result1 = parseInt(result) + parseInt(monto);
         tiempo1.innerText = tiempo
         porcentaje.innerText = "%1.7%"
